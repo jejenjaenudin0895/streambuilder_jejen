@@ -57,12 +57,12 @@ class _StreamHomePageState extends State<StreamHomePage> {
 
           }
           if (snapshot.hasData) {
-    return Center(
-    child: Text(snapshot.data.toString(),
-    style: const TextStyle(fontSize: 96),
-    ));
+              return Center(
+              child: Text(snapshot.data.toString(),
+              style: const TextStyle(fontSize: 96),
+              ));
 
-    } else {
+              } else {
             return const SizedBox.shrink();
             }
 
